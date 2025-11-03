@@ -14,9 +14,6 @@ type CivilStatusValid = "cns/s" | "cerc/s" | "cav/s" | "un/s" | "dsvu/s" | "cns/
 type DependentTypeInvalid = "deco/n" | "dp/n" | "tgc/n" | "dp/21" | "dep/id/n" | "dep/id/10" | "cnd/n"
 type DependentTypeValid = "deco/s" | "dp/s" | "tgc/s" | "cnd/s" | "dep/n"
 
-type PisPensionerInvalid = "pis/18/n"
-type PisPensionerValid = "pis/18/s" | "pis/nr"
-
 type TitleInvalid = "titel/n" | "titel/m"
 
 type ReservistaValid = "res/s" | "res/n" | "res/nr"
