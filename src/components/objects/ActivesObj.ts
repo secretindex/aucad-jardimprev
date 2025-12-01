@@ -176,11 +176,6 @@ const activesDocument: ActivesDocs = {
     required: false,
     present: false,
   },
-  ctps: {
-    name: "Carteira de Trabalho",
-    required: true,
-    present: false,
-  },
   beneficioPrevidenciario: {
     name: "Declaração de Benefício Previdenciário",
     required: true,
@@ -190,31 +185,6 @@ const activesDocument: ActivesDocs = {
     name: "Título de Eleitor",
     required: true,
     present: false,
-  },
-  reservista: {
-    name: "Reservista",
-    required: true,
-    present: false,
-    optionList: [
-      {
-        label: "Requerido",
-        value: "res/r",
-        children: [
-          {
-            label: "enviado",
-            value: "res/s",
-          },
-          {
-            label: "não enviado",
-            value: "res/n",
-          },
-        ],
-      },
-      {
-        label: "não requerido",
-        value: "res/nr",
-      },
-    ],
   },
   posse: {
     name: "Portaria de Posse",
