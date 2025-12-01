@@ -229,12 +229,6 @@ export interface ActivesDocs {
     present: boolean
     optionList?: NestedOption[]
   }
-  ctps: {
-    name: string
-    required: boolean
-    present: boolean
-    optionList?: NestedOption[]
-  }
   tituloEleitor: {
     name: string
     required: boolean
@@ -248,12 +242,6 @@ export interface ActivesDocs {
     optionList?: NestedOption[]
   }
   cnis: {
-    name: string
-    required: boolean
-    present: boolean
-    optionList?: NestedOption[]
-  }
-  reservista: {
     name: string
     required: boolean
     present: boolean
