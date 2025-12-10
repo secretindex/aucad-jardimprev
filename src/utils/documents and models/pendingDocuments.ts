@@ -9,6 +9,7 @@ export type InvalidDocuments = {
   "cerc/n": string
   "cav/n": string
   "un/n": string
+  "cnis/opt": string
   "inv/nc": string
   "dsvu/n": string
   "deco/n": string
@@ -34,6 +35,8 @@ const invalidStandard: InvalidDocuments = {
 Casada, Divorciada ou Viúva - Certidão de Casamento (com averbação nos dois últimos casos);
 União Estável - Declaração de União Estável ou Declaração de Convivência Marital (com firma reconhecida em cartório);
 Solteira - Certidão de nascimento`,
+  "cnis/opt":
+    "CNIS de período anterior a seu ingresso no município, caso pretenda solicitar averbação desse tempo para concessão de benefício no JARDIMPREV",
   "cerc/n": "Certidão de Casamento",
   "inv/nc": "Enviar qualquer documento que comprove invalidez do dependente DEP",
   "cav/n": "Certidão de casamento averbada",
@@ -61,7 +64,6 @@ export type ActivesStandardType = {
   cpf: string
   pis: string
   posse: string
-  cnis: string
   beneficioPrevidenciario: string
   tituloEleitor: string
   uniao: string
@@ -71,7 +73,6 @@ const activesStandard: ActivesStandardType = {
   cpf: "Qualquer documento contendo número do CPF",
   pis: "NIT/PIS/PASEP/NIS ou documento oficial que contenha a informação",
   tituloEleitor: "Título de Eleitor",
-  cnis: "CNIS de período anterior a seu ingresso no município, caso pretenda solicitar averbação desse tempo para concessão de benefício no JARDIMPREV",
   posse: "Documento de Portaria de Posse",
   beneficioPrevidenciario: "Declaração de Benefício Previdenciário emitida a partir do site meuinss.gov.br",
   uniao: "Certidão de União Estável",

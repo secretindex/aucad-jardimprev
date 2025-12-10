@@ -194,7 +194,26 @@ const activesDocument: ActivesDocs = {
   cnis: {
     name: "CNIS",
     required: true,
-    present: false,
+    optionList: [
+      {
+        label: "requerido",
+        value: "cnis/r",
+        children: [
+          {
+            label: "presente",
+            value: "cnis/s",
+          },
+          {
+            label: "não",
+            value: "cnis/opt"
+          }
+        ]
+      },
+      {
+        label: "não requerido",
+        value: "cnis/nr"
+      }
+    ]
   },
   depId: {
     name: "Dependentes",

@@ -9,7 +9,7 @@ export const documentsContext: FinalTextDocuments = {
   estadoCivil: "cns/n",
   pis: false,
   ctps: false,
-  cnis: false,
+  cnis: "cnis/nr",
   posse: false,
   registroProfissional: "reg/nr",
   beneficioPrevidenciario: false,

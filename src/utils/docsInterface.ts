@@ -244,8 +244,7 @@ export interface ActivesDocs {
   cnis: {
     name: string
     required: boolean
-    present: boolean
-    optionList?: NestedOption[]
+    optionList: NestedOption[]
   }
   depId: {
     name: string
